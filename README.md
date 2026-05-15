@@ -23,12 +23,11 @@ The system enables users to search research papers semantically using natural la
 - Scikit-learn  
 - Neo4j  
 
-
+```bash
 ## Installation
 
 ## 1️⃣ Clone Repository
 
-```bash
 git clone <your-github-repo-link>
 cd Research_paper_recommend
 
