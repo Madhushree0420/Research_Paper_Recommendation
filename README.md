@@ -1,43 +1,47 @@
 # AI Research Paper Search & Recommendation System
 
-An intelligent research paper recommendation system built using NLP, Sentence-BERT, FAISS, and Hybrid Ranking.
+An intelligent research paper recommendation system built using NLP, Sentence-BERT, FAISS, and Hybrid Ranking.  
 The system enables users to search research papers semantically using natural language queries and retrieve the most relevant papers instantly.
 
 
- **Displays:**
-1.Title
-2.Authors
-3.Abstract
-4.Year
-5.Venue
-6.Citation count
-
-**Technologies Used**
-  Python
-  Streamlit
-  Sentence-Transformers
-  FAISS
-  Pandas
-  NumPy
-  Scikit-learn
-  Neo4j 
-  
-
-**Installation**
-1️⃣ Clone Repository
-      git clone <your-github-repo-link>
-      cd Research_paper_recommend
-2️⃣ Install Dependencies
-      pip install -r requirements.txt
-      Or install manually:
-      pip install streamlit pandas numpy sentence-transformers faiss-cpu scikit-learn neo4j
+## Displays:
+1. Title  
+2. Authors  
+3. Abstract  
+4. Year  
+5. Venue  
+6. Citation Count  
 
 
-**Dataset**
+## Technologies Used
+- Python  
+- Streamlit  
+- Sentence-Transformers  
+- FAISS  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Neo4j  
+
+
+## Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone <your-github-repo-link>
+cd Research_paper_recommend
+
+##2️⃣ Install Dependencies
+pip install -r requirements.txt
+Or install manually:
+pip install streamlit pandas numpy sentence-transformers faiss-cpu scikit-learn neo4j
+Dataset
+
 Place your dataset file:
-data/dblp-v10.csv
 
-**Dataset columns used:**
+data/dblp-v10.csv
+Dataset Columns Used
 title
 abstract
 authors
@@ -48,7 +52,7 @@ references
 id
 ⚡ Generate Embeddings & FAISS Index
 
-**Run:**
+Run:
 
 python precompute.py
 
@@ -65,17 +69,15 @@ data/processed/
 streamlit run app.py
 🔍 Example Queries
 
-Try searching:
+##Try searching:
 
-deep learning
-recommendation system
-graph neural network
-machine learning
-NLP
-data mining
-
-
-**🧠 How It Works**
+-deep learning
+-recommendation system
+-graph neural network
+-machine learning
+-NLP
+-data mining
+##🧠 How It Works
 Step 1: Data Preprocessing
 Cleans dataset
 Removes null values
@@ -92,23 +94,22 @@ Final ranking combines:
 
 Semantic similarity score
 Citation count score
-📊 Future Enhancements
-🔗 Citation graph visualization
-💬 Chat with research papers
-📄 PDF paper links
-🧠 RAG-based AI assistant
-☁️ Cloud deployment
-📈 Trending paper analytics
-🖼 Sample UI Features
-Semantic search bar
-Relevance badges
-Citation-aware ranking
-Research metadata display
-Interactive recommendations
+-📊 Future Enhancements
+-🔗 Citation graph visualization
+-💬 Chat with research papers
+-📄 PDF paper links
+-🧠 RAG-based AI assistant
+-☁️ Cloud deployment
+-📈 Trending paper analytics
+-🖼 Sample UI Features
+-Semantic search bar
+-Relevance badges
+-Citation-aware ranking
+-Research metadata display
+-Interactive recommendations
 
 
 **👨‍💻 Author**
-
 Developed by Madhushree .S
 
 **📜 License**
