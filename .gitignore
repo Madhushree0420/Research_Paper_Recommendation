@@ -1,0 +1,4 @@
+data/dblp-v10.csv
+data/processed/
+__pycache__/
+*.pyc
