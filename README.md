@@ -26,11 +26,12 @@ The system enables users to search research papers semantically using natural la
 
 ## Installation
 
-### 1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 
-```bash
+
 git clone <your-github-repo-link>
 cd Research_paper_recommend
+
 
 ##2️⃣ Install Dependencies
 pip install -r requirements.txt
